@@ -1,4 +1,4 @@
-# Predicting Death from Heart Failure: Part I
+# Predicting Heart Disease
 ## Selected Topic
 Heart disease data gathered from the Framiningham Heart Study that includes multiple patient health parameters (machine learning model features) and the outcome of whether or not an individual ended up with heart disease after 10 years. The outcome is a binary classification of either "yes" someone developed heart disease or "no" someone did not develop heart disease. 
 
