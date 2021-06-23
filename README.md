@@ -30,10 +30,19 @@ Data was split into training and testing sets using a standard 75% to training a
   - No assumptions about distributions of features
   - Fast at classifying unknown records
   - Less inclined for overfitting
+  - Features do not need to be scaled, however they can be
 2. Logistic Regression limitations:
   - Can be difficult to obtain complex relationships 
   - Can't solve non-linear problems
   - Model constructs linear boundaries
   - There need to be more observations than features
+  - Poor performance with irrelevant and highly correlated features
+  - High reliance on proper presentation of data
+1. Random Forrest Model benefits:
+  - More generalizable and less prone to overfitting
+  - Able to extract feature importance, and making changes to feature selection
+2. Random Forrest Model limitations:
+  - features need to have some predictive power
+  - Less transparent/more difficult to know what is happening with the model
 
 
