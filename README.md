@@ -3,7 +3,7 @@
 Heart disease data gathered from the Framiningham Heart Study that includes multiple patient health parameters (machine learning model features) and the outcome of whether or not an individual ended up with heart disease after 10 years. The outcome is a binary classification of either "yes" someone developed heart disease or "no" someone did not develop heart disease. 
 
 ## Description of Source Data
-Data contains a total of 14 columns and 302 patients (rows). The outcome data currently ranks patients as having no heart disease (0) or some stage of heart disease. The outcome data will be processed to be a binary "yes" heart disease or "no" heart disease; all stages of heart disease will be combined under the outcome "yes" heart disease. 
+Data contains a total of 17 columns and 4240 rows. The outcome data currently ranks patients as having no heart disease (0) or as having heart disesase (1).
 
 ## Questions to Answer with the Data
 1. Do the input variables (health parameters) accuractly predict heart disease (yes/no) without any data preproccesing? 
@@ -20,6 +20,7 @@ The group will communicate primarily through a group channel on Slack with group
 ## Description of data preprocessing
 
 ## Description of feature engineering and feature selection
+All patient features were kept, only ID was dropped prior to running the models. There were a total of 16 features, the models were run and features were selected based on importance in the model. 
 
 ## Description of how data was split into training and testing sets
 Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratisfy to ensure that there was equal representation of the outcomes in both the training and testing sets.
