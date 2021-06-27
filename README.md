@@ -33,7 +33,7 @@ Data was split into training and testing sets using a standard 75% to training a
   - Fast at classifying unknown records
   - Less inclined for overfitting
   - Features do not need to be scaled, however they can be
-  - 
+  
 ### Logistic Regression limitations:
   - Can be difficult to obtain complex relationships 
   - Can't solve non-linear problems
@@ -41,7 +41,7 @@ Data was split into training and testing sets using a standard 75% to training a
   - There need to be more observations than features
   - Poor performance with irrelevant and highly correlated features
   - High reliance on proper presentation of data
-  - 
+  
 ### Random Forrest Model benefits:
   - More generalizable and less prone to overfitting
   - Able to extract feature importance, and making changes to feature selection
@@ -49,4 +49,5 @@ Data was split into training and testing sets using a standard 75% to training a
   - features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
 
-
+## GoogleSlides link
+[Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit#slide=id.gb6f0012df9_0_10)
