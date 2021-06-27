@@ -50,4 +50,4 @@ Data was split into training and testing sets using a standard 75% to training a
   - Less transparent/more difficult to know what is happening with the model
 
 ## GoogleSlides link
-[Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit#slide=id.gb6f0012df9_0_10)
+[Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
