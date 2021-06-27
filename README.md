@@ -26,23 +26,26 @@ All patient features were kept, only ID was dropped prior to running the models.
 Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratisfy to ensure that there was equal representation of the outcomes in both the training and testing sets.
 
 ## Explanation of model choice, including limitations and benefits
-1. Logistic Regression benefits: 
+
+### Logistic Regression benefits:
   - Able to take in multiple features and determine a binary outcome. The positive scores (for feature importance) indicate a feature that predicts class 1, whereas the negative scores indicate a feature that predicts class 0.
   - No assumptions about distributions of features
   - Fast at classifying unknown records
   - Less inclined for overfitting
   - Features do not need to be scaled, however they can be
-2. Logistic Regression limitations:
+  - 
+### Logistic Regression limitations:
   - Can be difficult to obtain complex relationships 
   - Can't solve non-linear problems
   - Model constructs linear boundaries
   - There need to be more observations than features
   - Poor performance with irrelevant and highly correlated features
   - High reliance on proper presentation of data
-1. Random Forrest Model benefits:
+  - 
+### Random Forrest Model benefits:
   - More generalizable and less prone to overfitting
   - Able to extract feature importance, and making changes to feature selection
-2. Random Forrest Model limitations:
+### Random Forrest Model limitations:
   - features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
 
