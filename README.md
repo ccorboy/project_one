@@ -20,12 +20,13 @@ The group will communicate primarily through a group channel on Slack with group
 ## Description of data preprocessing
 
 ## Description of feature engineering and feature selection
-All patient features were kept, only ID was dropped prior to running the models. There were a total of 16 features, the models were run and features were selected based on importance in the model. 
+All patient health features were kept in first machine learning model (ID was dropped prior to running the models). There were a total of 16 features in the original models. For both Lgoistic Regression and Random Forrest Model features were then ranked based on importance of the model. For Logistic Regression features with less than _______ were dropped from the model and the model was re-trained and tested without those features. 
 
 ## Description of how data was split into training and testing sets
-Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratisfy to ensure that there was equal representation of the outcomes in both the training and testing sets.
+Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratify to ensure that there was equal representation of the outcomes (Heart disease) in both the training and testing sets.
 
 ## Explanation of model choice, including limitations and benefits
+The final model chosen was Logistic Regression without the use of features shown to have small importance. While the accuracy for Logistic Regression and the Random Forrest Model were similiar, the recall and precision score for the outcome of heart disease were slightly higher in Logistic Regression. Logistic Regression is also less likely to suffer from overfitting and features are able to be scaled. 
 
 ### Logistic Regression benefits:
   - Able to take in multiple features and determine a binary outcome. The positive scores (for feature importance) indicate a feature that predicts class 1, whereas the negative scores indicate a feature that predicts class 0.
@@ -48,6 +49,8 @@ Data was split into training and testing sets using a standard 75% to training a
 ### Random Forrest Model limitations:
   - features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
+
+## Logistic Regression Confusion Matrix and Accuracy Score
 
 ## GoogleSlides link
 [Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
