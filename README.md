@@ -19,7 +19,10 @@ The group will communicate primarily through a group channel on Slack with group
 
 ## Description of data preprocessing
 Data was read into Python directly from PostgreSQL. The data was then processed to:
-1. Remove 
+1. Drop the index column, as this column was not necessary in the machine learning model
+2. Determine if there were any null/missing (NaN) values present. Both the total number of missing values present in each column and the overall percentage of missing data was calculated (15.21%).
+3. Given the relatively low amount of missing data, it was decided to drop any missing data instead of replacing the data with the mean (continuous data) or most frequently occuring (categorical data). 
+4. After cleaning the dataset it was determined to keep all patient health-related features (total of 14) for the inital machine learning models. 
 
 ## Description of feature engineering and feature selection
 All patient health features were kept in first machine learning model (ID was dropped prior to running the models). There were a total of 16 features in the original models. For both Lgoistic Regression and Random Forrest Model features were then ranked based on importance of the model. For Logistic Regression features with less than _______ were dropped from the model and the model was re-trained and tested without those features. 
