@@ -51,3 +51,6 @@ Data was split into training and testing sets using a standard 75% to training a
 
 ## GoogleSlides link
 [Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
+
+## Tableu Dashboard link
+[Click for Tableu Dashboard](https://public.tableau.com/app/profile/conor.corboy/viz/project_one_draft/project_dash_draft)
