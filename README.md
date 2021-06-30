@@ -18,6 +18,8 @@ The group will communicate primarily through a group channel on Slack with group
 2. Random Forrest model and assessment of feature importance 
 
 ## Description of data preprocessing
+Data was read into Python directly from PostgreSQL. The data was then processed to:
+1. Remove 
 
 ## Description of feature engineering and feature selection
 All patient health features were kept in first machine learning model (ID was dropped prior to running the models). There were a total of 16 features in the original models. For both Lgoistic Regression and Random Forrest Model features were then ranked based on importance of the model. For Logistic Regression features with less than _______ were dropped from the model and the model was re-trained and tested without those features. 
