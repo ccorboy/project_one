@@ -58,7 +58,7 @@ The final model chosen was Logistic Regression without the use of features shown
   - More generalizable and less prone to overfitting
   - Able to extract feature importance, and making changes to feature selection
 ### Random Forrest Model limitations:
-  - features need to have some predictive power
+  - Features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
 
 ## Logistic Regression Confusion Matrix and Accuracy Score
