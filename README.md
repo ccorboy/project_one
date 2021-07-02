@@ -3,7 +3,7 @@
 Heart disease data gathered from the Framiningham Heart Study that includes multiple patient health parameters (machine learning model features) and the outcome of whether or not an individual ended up with heart disease after 10 years. The outcome is a binary classification of either "yes" someone developed heart disease or "no" someone did not develop heart disease. 
 
 ## Description of Source Data
-A total of 2 datasets were combined to create the final dataset used for machine learning. The final dataset contains a total of 16 columns and 11191 rows. The outcome data currently ranks patients as having no heart disease (0) or as having heart disesase (1).
+A total of 2 datasets (Framingham Heart Study dataset from Kaggle and similar data from the National Heart, Lung and Blood Institute) were combined to create the final dataset used for machine learning. The final dataset contains a total of 16 columns and 11191 rows. The outcome data currently ranks patients as having no heart disease (0) or as having heart disesase (1).
 
 ## Questions to Answer with the Data
 1. Do the input variables (health parameters) accuractly predict heart disease (yes/no) without any data preproccesing? 
