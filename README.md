@@ -25,7 +25,11 @@ Data was read into Python directly from PostgreSQL. The data was then processed 
 4. After cleaning the dataset it was determined to keep all patient health-related features (total of 14) for the inital machine learning models. 
 
 ## Description of feature engineering and feature selection
-All patient health features were kept in first machine learning model (ID was dropped prior to running the models). There were a total of 16 features in the original models. For both Lgoistic Regression and Random Forrest Model features were then ranked based on importance of the model. For Logistic Regression features with less than _______ were dropped from the model and the model was re-trained and tested without those features. 
+1. All features were plotted to determine distribution and to look for any outliers. No outliers were found and the data for continuous features was normally distributed. We were also able to visually see that the data would need to be scaled to provide a more accurate machine learning model. 
+2. It was found that the outcome feature (TenYearCHD) was imbalanced, with more patients having the outcome of “0” (did not develop CHD) compared to “1” (did develop CHD). This was helpful to determine that it may be necessary to oversample or under sample the data to improve the accuracy of the model. 
+3. The features were assessed for the need for either categorical or numerical grouping, however it was decided that categorical data was all binary (0 or 1) and numerical data was all within a reasonable range. Grouping numerical values may have led to a less accurate model. 
+4. Prior to running the machine learning model all features were scaled used standardization. Standardizing allows for the use of features with differing ranges/values to be compared to one another. 
+5. The two machine learning models chosen to test were Logistic Regression and Random Forrest. For both the confusion matrix, accuracy score, classification report and feature importance were determined. Based on this information Logistic Regression was chosen as the final model as it provided a similar accuracy score however it provided higher precision and recall scores overall.  
 
 ## Description of how data was split into training and testing sets
 Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratify to ensure that there was equal representation of the outcomes (Heart disease) in both the training and testing sets.
