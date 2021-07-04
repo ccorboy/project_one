@@ -61,6 +61,8 @@ The final model chosen was Logistic Regression without the use of features shown
   - Features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
 
+## LR Oversampling.pdf
+
 ## Logistic Regression Confusion Matrix and Accuracy Score
 
 ## GoogleSlides link
