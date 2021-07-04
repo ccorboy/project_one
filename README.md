@@ -1,6 +1,6 @@
 # Predicting Heart Disease
 ## Selected Topic
-Heart disease data gathered from the Framiningham Heart Study that includes multiple patient health parameters (machine learning model features) and the outcome of whether or not an individual ended up with heart disease after 10 years. The outcome is a binary classification of either "yes" someone developed heart disease or "no" someone did not develop heart disease. 
+Heart disease data gathered from the Framiningham Heart Study that includes multiple patient health parameters (machine learning model features) and the outcome of whether or not an individual ended up with heart disease. The outcome is a binary classification of either "yes" someone developed heart disease or "no" someone did not develop heart disease. 
 
 ## Description of Source Data
 A total of 2 datasets (Framingham Heart Study dataset from Kaggle and similar data from the National Heart, Lung and Blood Institute) were combined to create the final dataset used for machine learning. The final dataset contains a total of 16 columns and 11191 rows. The outcome data currently ranks patients as having no heart disease (0) or as having heart disesase (1).
@@ -70,3 +70,4 @@ The final model chosen was Logistic Regression without the use of features shown
 [Click for Tableu Dashboard](https://public.tableau.com/app/profile/conor.corboy/viz/project_one_draft/project_dash_draft)
 
 ### Dataset disclosure 
+(NOTE: Although the enclosed dataset contains Framingham data ‘as collected’ by Framingham investigators, specific methods were employed to ensure an anonymous dataset that protects patient confidentiality; therefore, this dataset is inappropriate for publication purposes. All persons teaching with this dataset are encouraged to ensure all users are aware that this dataset is inappropriate for publication purposes.)
