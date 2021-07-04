@@ -69,9 +69,14 @@ The final model chosen was Logistic Regression without the use of features shown
 ### Using Oversampling with Logistic Regression
 ![Classification Report for Logistic Regression using Oversampling](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
 
+### Logistic Regression with reduced features
+![Classification Report for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
+
 ## Logistic Regression Confusion Matrix and Accuracy Score
 
 The accuracy score for the Logistic Regression Model with a reduction of features is 90%. 
+
+![Confusion Matrix for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
 
 ## GoogleSlides link
 [Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
