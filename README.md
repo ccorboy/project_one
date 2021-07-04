@@ -71,6 +71,8 @@ The final model chosen was Logistic Regression without the use of features shown
 
 ## Logistic Regression Confusion Matrix and Accuracy Score
 
+The accuracy score for the Logistic Regression Model with a reduction of features is 90%. 
+
 ## GoogleSlides link
 [Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
 
