@@ -70,7 +70,7 @@ The final model chosen was Logistic Regression without the use of features shown
 ![Classification Report for Logistic Regression using Oversampling](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
 
 ### Logistic Regression with reduced features
-![Classification Report for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
+![Classification Report for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/44086a346b8a75f6b6fbec5a26aee53d8ac25fd3/LR%20reduced%20features%20CR.png)
 
 ## Logistic Regression Confusion Matrix and Accuracy Score
 
