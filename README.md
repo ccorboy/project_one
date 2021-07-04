@@ -79,6 +79,8 @@ The accuracy score for the Logistic Regression Model with a reduction of feature
 
 ![Confusion Matrix for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/7835bf12ef3fd0c224a87a5accf13440b57095eb/LR%20reduced%20features%20CM.png)
 
+![Confusion Matrix example](https://github.com/ccorboy/project_one/blob/7835bf12ef3fd0c224a87a5accf13440b57095eb/LR%20reduced%20features%20CM.png)
+
 ## GoogleSlides link
 [Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
 
