@@ -66,6 +66,8 @@ The final model chosen was Logistic Regression without the use of features shown
 ### Using Oversampling with Logistic Regression
 ![Classification Report for Logistic Regression using Oversampling](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
 
+### Using Oversampling with Logistic Regression
+![Classification Report for Logistic Regression with all available features](https://github.com/ccorboy/project_one/blob/a35be5e8935e48c56406f33fc22d7e4c3b31a9f0/LR%20with%20all%20features.png)
 ## Logistic Regression Confusion Matrix and Accuracy Score
 
 ## GoogleSlides link
