@@ -62,7 +62,7 @@ The final model chosen was Logistic Regression without the use of features shown
   - Less transparent/more difficult to know what is happening with the model
 
 ## LR Oversampling.pdf
-![alt text](http://url/to/img.png)
+![Classification Report for Logistic Regression using Oversampling](https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png)
 
 ## Logistic Regression Confusion Matrix and Accuracy Score
 
