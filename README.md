@@ -32,6 +32,7 @@ Data was read into Python directly from PostgreSQL. The data was then processed 
 5. The two machine learning models chosen to test were Logistic Regression and Random Forrest. For both the confusion matrix, accuracy score, classification report and feature importance were determined. Based on this information Logistic Regression was chosen as the final model as it provided a similar accuracy score however it provided higher precision and recall scores overall.  
 
 ## Description of how model was trained
+The Logistic Regression model was trained using Python’s scikit-learn code which can be used to train a logistic regression classifier and make a prediction.  
 
 ## Description of how data was split into training and testing sets
 Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratify to ensure that there was equal representation of the outcomes (Heart disease) in both the training and testing sets.
