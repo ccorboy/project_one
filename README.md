@@ -55,10 +55,10 @@ The final model chosen was Logistic Regression without the use of features shown
   - Poor performance with irrelevant and highly correlated features
   - High reliance on proper presentation of data
   
-### Random Forrest Model benefits:
+### Random Forest Model benefits:
   - More generalizable and less prone to overfitting
   - Able to extract feature importance, and making changes to feature selection
-### Random Forrest Model limitations:
+### Random Forest Model limitations:
   - Features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
 
