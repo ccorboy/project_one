@@ -38,7 +38,7 @@ The Logistic Regression model was trained using Python’s scikit-learn code whi
 Data was split into training and testing sets using a standard 75% to training and 25% to testing. The training and testing sets were also set to stratify to ensure that there was equal representation of the outcomes (Heart disease) in both the training and testing sets.
 
 ## Explanation of model choice, including limitations and benefits
-The final model chosen was Logistic Regression without the use of features shown to have small importance (<0.03). While the accuracy for Logistic Regression and the Random Forrest Model were similiar, the recall and precision score for the outcome of heart disease were slightly higher in Logistic Regression. Logistic Regression is also less likely to suffer from overfitting and features are able to be scaled. 
+The final model chosen was Logistic Regression without the use of features shown to have small importance (<0.03). The Classification Reports and accuracy scores were similar, however the accuracy score for Logistic Regression was higher (89.9% vs 86%). We ended up chosing to move forward with Logistic Regression as our model of choice. 
 
 ### Logistic Regression benefits:
   - Able to take in multiple features and determine a binary outcome. The positive scores (for feature importance) indicate a feature that predicts class 1, whereas the negative scores indicate a feature that predicts class 0.
