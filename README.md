@@ -62,7 +62,7 @@ The final model chosen was Logistic Regression without the use of features shown
   - Features need to have some predictive power
   - Less transparent/more difficult to know what is happening with the model
 
-## Classification Reports
+## Logistic Regression Model Performance
 
 ### Logistic Regression
 <img src="https://github.com/ccorboy/project_one/blob/595da6a953da4f185dbd16783c1f4dbcbc483254/Images/LR%20Accuracy%20Score.png" width="500" height="150">
