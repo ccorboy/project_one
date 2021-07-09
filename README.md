@@ -96,7 +96,7 @@ Sensitivity = 50%
 [Click for Google Slides](https://docs.google.com/presentation/d/1zgd_ht6uyIJ8kVkHymmYEqXUR6f8DTbMxfj6EIIAIp0/edit?usp=sharing)
 
 ## Tableu Dashboard link
-[Click for Tableu Dashboard](https://public.tableau.com/app/profile/conor.corboy/viz/project_one_draft/project_dash_draft)
+[Click for Tableu Dashboard](https://public.tableau.com/app/profile/conor.corboy/viz/CHD_pres/Story1)
 
 ### Dataset disclosure 
 (NOTE: Although the enclosed dataset contains Framingham data ‘as collected’ by Framingham investigators, specific methods were employed to ensure an anonymous dataset that protects patient confidentiality; therefore, this dataset is inappropriate for publication purposes. All persons teaching with this dataset are encouraged to ensure all users are aware that this dataset is inappropriate for publication purposes.)
