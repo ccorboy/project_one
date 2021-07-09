@@ -75,7 +75,7 @@ The final model chosen was Logistic Regression without the use of features shown
 
 ## Logistic Regression with Reduced Features (final model) - Confusion Matrix, Accuracy Score and Classification Report
 
-The accuracy score for the Logistic Regression Model with a reduction of features is 90%. This is interpreted as the model (logistic regression with reduced features) correctly classifies information 90% of the time. The higher the accuracy score the better the model is at predicting outcomes; however it also can indicate a model that is overfitting the data and would not be able to be generalized to other similar datasets. 
+The accuracy score for the Logistic Regression Model with a reduction of features is 90%. This is interpreted as the model (logistic regression with reduced features) correctly classifies information 90% of the time. The higher the accuracy score the better the model is at predicting outcomes; however it also can indicate a model that is overfitting the data and would not be able to be generalized to other similar datasets. In our model, while the accuracy score is high at 90% the specificty is low at 50%. This means the model is better at predicting who will develop CHD versus who will not develop CHD. In the case of CHD, where the outcome can be very serious for an individual, having higher sensitivity is likely more important than having high specificity. This model offers a good starting place to predict CHD at a population-based level, but more data, and likely more robust datasets, would be needed to use machine learning to accurately predict CHD on an individual patient level. 
 
 ### Accuracy Score
 
