@@ -73,9 +73,11 @@ The final model chosen was Logistic Regression without the use of features shown
 ### Logistic Regression with reduced features
 ![Classification Report for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/44086a346b8a75f6b6fbec5a26aee53d8ac25fd3/LR%20reduced%20features%20CR.png)
 
-## Logistic Regression Confusion Matrix and Accuracy Score
+## Logistic Regression with Reduced Features - Confusion Matrix and Accuracy Score
 
 The accuracy score for the Logistic Regression Model with a reduction of features is 90%. This is interpreted as the model (logistic regression with reduced features) correctly classifies information 90% of the time. The higher the accuracy score the better the model is at predicting outcomes; however it also can indicate a model that is overfitting the data and would not be able to be generalized to other similar datasets. 
+
+![Accuracy Score for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/a0a6404635ac9f03c67fcc3b68e99ec01e1f8da4/Images/LR%20with%20reduced%20features%20accuracy%20final.png)
 
 
 ![Confusion Matrix for Logistic Regression with reduced features](https://github.com/ccorboy/project_one/blob/e9d05e70c688c379c3e06e1b180ddc839df66212/Images/LR%20reduced%20features%20CM%20final.png)
