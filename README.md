@@ -68,13 +68,12 @@ The final model chosen was Logistic Regression without the use of features shown
 <img src="https://github.com/ccorboy/project_one/blob/595da6a953da4f185dbd16783c1f4dbcbc483254/Images/LR%20Accuracy%20Score.png" width="500" height="150">
 
 ### Logistic Regression with Random Oversampling
-<img src="https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png" width="600" height="200">
+<img src="https://github.com/ccorboy/project_one/blob/5a393bd3569ffed5e4e95c408b1c981f06790cac/Images/LR%20Oversampling.png" width="500" height="150">
 
 
-### Logistic Regression with Reduced Features (final model)
-<img src="https://github.com/ccorboy/project_one/blob/44086a346b8a75f6b6fbec5a26aee53d8ac25fd3/LR%20reduced%20features%20CR.png" width="600" height="200">
 
-## Logistic Regression with Reduced Features - Confusion Matrix and Accuracy Score
+
+## Logistic Regression with Reduced Features (final model) - Confusion Matrix, Accuracy Score and Classification Report
 
 The accuracy score for the Logistic Regression Model with a reduction of features is 90%. This is interpreted as the model (logistic regression with reduced features) correctly classifies information 90% of the time. The higher the accuracy score the better the model is at predicting outcomes; however it also can indicate a model that is overfitting the data and would not be able to be generalized to other similar datasets. 
 
@@ -88,6 +87,9 @@ Specificity = 90%,
 Sensitivity = 50%
 <p>
 <img src="https://github.com/ccorboy/project_one/blob/e9d05e70c688c379c3e06e1b180ddc839df66212/Images/LR%20reduced%20features%20CM%20final.png" width="600" height="150">
+  
+### Classification Report
+<img src="https://github.com/ccorboy/project_one/blob/44086a346b8a75f6b6fbec5a26aee53d8ac25fd3/LR%20reduced%20features%20CR.png" width="600" height="200">
 
 
 ## GoogleSlides link
