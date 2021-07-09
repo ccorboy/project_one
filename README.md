@@ -65,7 +65,7 @@ The final model chosen was Logistic Regression without the use of features shown
 ## Classification Reports
 
 ### Logistic Regression
-<img src="https://github.com/ccorboy/project_one/blob/a35be5e8935e48c56406f33fc22d7e4c3b31a9f0/LR%20with%20all%20features.png" width="600" height="200">
+<img src="https://github.com/ccorboy/project_one/blob/595da6a953da4f185dbd16783c1f4dbcbc483254/Images/LR%20Accuracy%20Score.png" width="500" height="150">
 
 ### Logistic Regression with Random Oversampling
 <img src="https://github.com/ccorboy/project_one/blob/edc61c3ae3a1358664456b1d8fe7b37c2b70ffc2/LR%20Oversampling.png" width="600" height="200">
